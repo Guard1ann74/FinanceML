@@ -1,0 +1,12 @@
+# Public repo excludes downloaded source time series and daily predictions.
+/data/
+/results/predictions_main.csv
+/results/predictions_robust.csv
+/results/panel/forecasts/
+/results/panel/calendar_forecasts/
+/results/panel_run.log
+/results/research/run.log
+/results/calendar/run.log
+__pycache__/
+*.py[cod]
+.pytest_cache/

@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "rows_after_drop": 3754,
+    "dropped_partial_last_row": 1,
+    "first_date": "2012-01-03",
+    "last_date": "2026-11-15",
+    "duplicate_dates": 0,
+    "null_cells": 0,
+    "zero_volume_rows": 3754,
+    "zero_value_rows": 1,
+    "value_std": 32575608049.623665,
+    "value_all_zero": false,
+    "value_feature_used": true,
+    "zero_return_rows": 1,
+    "gap_last_day_before": "2022-02-25",
+    "gap_close_before": 2470.48,
+    "gap_first_day_after": "2022-03-24",
+    "gap_close_after": 2578.51,
+    "gap_log_return": 0.04279924898145245,
+    "shock_day": "2022-02-24",
+    "shock_log_return": -0.40467443028760997,
+    "high_vol_threshold_vol20_p75_2012_2019": 0.18911935925669354
+  },
+  "tuned_params": {
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "max_iter": 100,
+    "min_samples_leaf": 20
+  },
+  "K1": {
+    "QLIKE_fixed_test": 1.162099937995176,
+    "QLIKE_expanding_test": 1.0085244056303728,
+    "relative_diff": 0.15227745754829947,
+    "ci95": [
+      0.11385647541837961,
+      0.18834159848127416
+    ],
+    "dm_stat": 2.4617177981416027,
+    "p_value": 0.013827341567787728,
+    "pass": false
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "analysis_label": "исследовательский анализ, не проверка гипотезы",
+  "tickers": [
+    "SBER",
+    "LKOH",
+    "MGNT",
+    "SBERP",
+    "NVTK",
+    "TATN",
+    "MTSS",
+    "HYDR",
+    "AFLT",
+    "IRAO",
+    "RTKM",
+    "MTLR",
+    "TATNP",
+    "PIKK",
+    "MSNG"
+  ],
+  "pikk": {
+    "test_qlike": {
+      "fixed": 2.4517995335072427,
+      "expanding": 3.3315276330454817,
+      "rolling": 4.818384199156376,
+      "har": 2.2227317465098033,
+      "naive": 4.446669117093789
+    },
+    "n_rows": 3847,
+    "n_zero_turnover": 0,
+    "zero_return_share_2012_2019": 0.04813895781637717,
+    "split_or_scale_events": [],
+    "max_abs_log_return": 0.2595111954850845,
+    "min_y": -13.815510557964274,
+    "max_y": 0.9216921433395928,
+    "gap_last_before": "2022-02-25",
+    "gap_first_after": "2022-03-24",
+    "stored_qlike_panel": {
+      "fixed": 2.451799533507243,
+      "expanding": 3.331527633045479,
+      "rolling": 4.818384199156374,
+      "har": 2.222731746509803,
+      "naive": 4.446669117093789
+    }
+  },
+  "periods": [
+    {
+      "period": "2022-01…2022-12",
+      "median_relative_fixed_vs_expanding": -0.014608113602115114,
+      "stocks_expanding_improved": 7,
+      "stocks_total": 15,
+      "wilcoxon_statistic_on_paired_QLIKE": 59.0,
+      "wilcoxon_p": 0.97796630859375,
+      "median_relative_expanding_vs_rolling": -0.034271320933078275,
+      "median_relative_expanding_vs_har": 0.05246655808763068
+    },
+    {
+      "period": "2023 и позже",
+      "median_relative_fixed_vs_expanding": 0.0024655999082796587,
+      "stocks_expanding_improved": 8,
+      "stocks_total": 15,
+      "wilcoxon_statistic_on_paired_QLIKE": 52.0,
+      "wilcoxon_p": 0.67877197265625,
+      "median_relative_expanding_vs_rolling": -0.12426821473328586,
+      "median_relative_expanding_vs_har": -0.008089927341841774
+    }
+  ],
+  "spearman": [
+    {
+      "variable": "Размер скачка волатильности",
+      "rho_spearman": -0.37499999999999994,
+      "ci95_boot_low": -0.7436917152304332,
+      "ci95_boot_high": 0.1325044350541227,
+      "p_value_asymptotic": 0.16843274984674547,
+      "n_stocks": 15,
+      "bootstrap_reps": 10000
+    },
+    {
+      "variable": "Средний дневной оборот",
+      "rho_spearman": 0.1928571428571428,
+      "ci95_boot_low": -0.3541550107785631,
+      "ci95_boot_high": 0.6472782931354361,
+      "p_value_asymptotic": 0.49104870160522307,
+      "n_stocks": 15,
+      "bootstrap_reps": 10000
+    },
+    {
+      "variable": "Доля нулевых доходностей",
+      "rho_spearman": 0.005366734884263648,
+      "ci95_boot_low": -0.557992327365729,
+      "ci95_boot_high": 0.6123188405797103,
+      "p_value_asymptotic": 0.9848554870980208,
+      "n_stocks": 15,
+      "bootstrap_reps": 10000
+    }
+  ],
+  "dm_holm": [
+    {
+      "comparison": "Бустинг — HAR",
+      "significant_after_holm": 0,
+      "stocks": 15
+    },
+    {
+      "comparison": "Расширяющаяся — скользящая",
+      "significant_after_holm": 3,
+      "stocks": 15
+    },
+    {
+      "comparison": "Фиксированная — расширяющаяся",
+      "significant_after_holm": 1,
+      "stocks": 15
+    }
+  ],
+  "dynamic_tickers": [
+    "PIKK",
+    "IRAO",
+    "MTSS",
+    "RTKM",
+    "MTLR",
+    "NVTK"
+  ],
+  "panel_forecasts_reconstructed": true
+}

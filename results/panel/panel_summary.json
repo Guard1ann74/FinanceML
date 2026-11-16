@@ -1,0 +1,28 @@
+{
+  "tickers": [
+    "SBER",
+    "LKOH",
+    "MGNT",
+    "SBERP",
+    "NVTK",
+    "TATN",
+    "MTSS",
+    "HYDR",
+    "AFLT",
+    "IRAO",
+    "RTKM",
+    "MTLR",
+    "TATNP",
+    "PIKK",
+    "MSNG"
+  ],
+  "median_rel_fixed_vs_expanding": 0.00157735184708363,
+  "share_expanding_better_than_fixed": 0.5333333333333333,
+  "wilcoxon_two_sided_p": 0.67877197265625,
+  "wilcoxon_one_sided_greater_p": 0.6806640625,
+  "median_rel_expanding_vs_rolling": -0.1185234612599243,
+  "share_expanding_better_than_rolling": 0.8666666666666667,
+  "median_rel_boosting_vs_har": 0.007272634921527743,
+  "share_boosting_better_than_har": 0.4666666666666667,
+  "K1_panel_pass": false
+}

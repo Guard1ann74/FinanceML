@@ -1,0 +1,20 @@
+{
+  "lowest_effect": [
+    "PIKK",
+    "IRAO",
+    "MTSS"
+  ],
+  "highest_effect": [
+    "RTKM",
+    "MTLR",
+    "NVTK"
+  ],
+  "selected": [
+    "PIKK",
+    "IRAO",
+    "MTSS",
+    "RTKM",
+    "MTLR",
+    "NVTK"
+  ]
+}

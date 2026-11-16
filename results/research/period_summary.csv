@@ -1,0 +1,3 @@
+period,median_relative_fixed_vs_expanding,stocks_expanding_improved,stocks_total,wilcoxon_statistic_on_paired_QLIKE,wilcoxon_p,median_relative_expanding_vs_rolling,median_relative_expanding_vs_har
+2022-01…2022-12,-0.014608113602115114,7,15,59.0,0.97796630859375,-0.034271320933078275,0.05246655808763068
+2023 и позже,0.0024655999082796587,8,15,52.0,0.67877197265625,-0.12426821473328586,-0.008089927341841774

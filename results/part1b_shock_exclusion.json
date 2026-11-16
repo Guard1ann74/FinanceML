@@ -1,0 +1,26 @@
+{
+  "targets_removed":2,
+  "removed_origin_dates":[
+    "2022-02-16",
+    "2022-02-17"
+  ],
+  "all_affected_origin_dates":[
+    "2022-02-16",
+    "2022-02-17",
+    "2022-02-18",
+    "2022-02-21",
+    "2022-02-22"
+  ],
+  "n_full_test":1202,
+  "n_subset":1200,
+  "QLIKE_fixed_full":1.162099938,
+  "QLIKE_expanding_full":1.0085244056,
+  "QLIKE_fixed_subset":0.7302949984,
+  "QLIKE_expanding_subset":0.6316479162,
+  "rel_diff_subset":0.1561741591,
+  "ci95_low":0.1078144681,
+  "ci95_high":0.2124712357,
+  "dm_stat":4.8086653313,
+  "dm_p_value":0.0000015194,
+  "mean_loss_diff":0.0986470821
+}
